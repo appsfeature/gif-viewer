@@ -1,6 +1,7 @@
 # GifViewer
 
 Library for playing gifs on Android
+
 Simple android view to display gifs efficiently. 
 
 <p align="center">
