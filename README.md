@@ -4,8 +4,8 @@ Library for playing gifs on Android
 Simple android view to display gifs efficiently. 
 
 <p align="left">
-  <img src="https://raw.githubusercontent.com/appsfeature/gif-viewer/master/screenshots/sample1.png" alt="Preview 1" width="200" /> 
-  <img src="https://raw.githubusercontent.com/appsfeature/gif-viewer/master/screenshots/sample2.png" alt="Preview 2" width="200" />  
+  <img src="https://raw.githubusercontent.com/appsfeature/gif-viewer/master/screenshots/sample1.gif" alt="Preview 1" width="200" /> 
+  <img src="https://raw.githubusercontent.com/appsfeature/gif-viewer/master/screenshots/sample2.gif" alt="Preview 2" width="200" />  
 </p>
 
 ## Setup Project
@@ -28,11 +28,11 @@ Add this to your project build.gradle
 
 Module-level build.gradle (<module>/build.gradle): 
 
-#### [![](https://jitpack.io/v/org.bitbucket.amitresearchdev/gif-viewer.svg)](https://jitpack.io/#org.bitbucket.amitresearchdev/gif-viewer)
+#### [![](https://jitpack.io/v/appsfeature/gif-viewer.svg)](https://jitpack.io/#appsfeature/gif-viewer)
 ```gradle  
 
 dependencies {
-    implementation 'org.bitbucket.amitresearchdev:gif-viewer:x.y'
+    implementation 'com.github.appsfeature:gif-viewer:x.y'
 } 
 ```
 
