@@ -1,16 +1,152 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/white"
     android:gravity="center"
     tools:context=".MainActivity">
 
-    <com.gifviewer.GifViewer
-        android:id="@+id/gif_view"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        app:srcGif="@drawable/hour_glass"  />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
 
-</LinearLayout>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.gifviewer.GifViewer
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcGif="@drawable/ic_gear_1" />
+
+                <com.gifviewer.GifViewer
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    app:srcGif="@drawable/ic_gear_2" />
+
+                <com.gifviewer.GifViewer
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    app:srcGif="@drawable/ic_gera_3" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.gifviewer.GifViewer
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcGif="@drawable/ic_circle_progress_1" />
+
+                <com.gifviewer.GifViewer
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    app:srcGif="@drawable/ic_circle_progress_4" />
+
+                <com.gifviewer.GifViewer
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    app:srcGif="@drawable/ic_circle_progress_6" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.gifviewer.GifViewer
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcGif="@drawable/ic_circle_progress_7" />
+
+                <com.gifviewer.GifViewer
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    app:srcGif="@drawable/ic_circle_progress_5" />
+
+                <com.gifviewer.GifViewer
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    app:srcGif="@drawable/ic_sand_clock" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.gifviewer.GifViewer
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    app:srcGif="@drawable/ic_rocket_2" />
+
+                <com.gifviewer.GifViewer
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    app:srcGif="@drawable/ic_rocket_3" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+        <com.gifviewer.GifViewer
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcGif="@drawable/ic_rocket_1" />
+
+        <com.gifviewer.GifViewer
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcGif="@drawable/ic_work_in_progress" />
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
