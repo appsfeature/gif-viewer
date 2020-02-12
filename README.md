@@ -3,9 +3,9 @@
 Library for playing gifs on Android
 Simple android view to display gifs efficiently. 
 
-<p align="left">
-  <img src="https://raw.githubusercontent.com/appsfeature/gif-viewer/master/screenshots/sample1.gif" alt="Preview 1" width="200" /> 
-  <img src="https://raw.githubusercontent.com/appsfeature/gif-viewer/master/screenshots/sample2.gif" alt="Preview 2" width="200" />  
+<p align="center">
+  <img src="https://raw.githubusercontent.com/appsfeature/gif-viewer/master/screenshots/sample1.gif" alt="Preview 1" width="350" /> 
+  <img src="https://raw.githubusercontent.com/appsfeature/gif-viewer/master/screenshots/sample2.gif" alt="Preview 2" width="350" />  
 </p>
 
 ## Setup Project
